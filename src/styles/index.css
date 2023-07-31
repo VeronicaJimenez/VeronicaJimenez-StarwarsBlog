@@ -1,3 +1,27 @@
 /* 
     General Styles
 */
+.container_image_main{
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#individual_card{
+    margin:20px 20px 15px 0px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px
+}
+.card-img-top {
+    border: 0px solid grey;
+    border-radius: 10px;
+ 
+    height: 200px;
+}
+
+#image_detail{
+    width: 800px;
+    height: 600px;
+}
