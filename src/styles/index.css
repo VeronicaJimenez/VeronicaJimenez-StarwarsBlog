@@ -17,11 +17,14 @@
 .card-img-top {
     border: 0px solid grey;
     border-radius: 10px;
- 
+    object-fit: contain;
     height: 200px;
+    background-color: black;
 }
 
 #image_detail{
+    object-fit: contain;
     width: 800px;
     height: 600px;
+    background-color: black;
 }

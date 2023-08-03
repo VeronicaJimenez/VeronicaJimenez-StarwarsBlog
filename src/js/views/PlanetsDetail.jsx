@@ -24,7 +24,7 @@ const PlanetsDetail = (props) => {
             {detail !== null &&
                 <div className="row g-0">
                     <div className="col">
-                    <img src="https://dummyimage.com/800x600/000/fff" id="image_detail"  alt="..." />
+                    <img src={"https://starwars-visualguide.com/assets/img/planets/"+ detail.uid +".jpg"} id="image_detail"  alt="..." />
                     </div>
                     <div className="col">
                         <div className="ms-5 mt-4 align-middle">
